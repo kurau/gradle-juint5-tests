@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.kurau'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('org.aeonbits.owner:owner-java8:1.0.12')
+    implementation('org.seleniumhq.selenium:selenium-java:3.141.59')
+    implementation('io.qameta.atlas:atlas-webdriver:1.8.0')
+}
